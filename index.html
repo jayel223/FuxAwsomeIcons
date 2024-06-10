@@ -8,113 +8,68 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/theme/material.min.css">
     <link rel="stylesheet" href="https://jayel223.github.io/FuxAwsomeIcons/path/to/yourfile.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/xml/xml.min.js"></script>
-    <script src="https://jayel223.github.io/FuxAwsomeIcons/path/to/yourfile.js"></script>
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">FuxAwsomeIcons Documentation</h1>
+        <h1 class="text-center mb-4">FuxAwsomeIcons Documentation</h1>
 
-        <section id="getting-started">
-            <h2>Getting Started</h2>
-            <p>To use FuxAwsomeIcons in your project, include the following CDN links:</p>
-            <h3>CSS</h3>
-            <textarea class="code" id="css-cdn" readonly>&lt;link rel="stylesheet" href="https://jayel223.github.io/FuxAwsomeIcons/path/to/yourfile.css"&gt;</textarea>
-            <h3>JavaScript</h3>
-            <textarea class="code" id="js-cdn" readonly>&lt;script src="https://jayel223.github.io/FuxAwsomeIcons/path/to/yourfile.js"&gt;&lt;/script&gt;</textarea>
-        </section>
+        <div class="row">
+            <div class="col-md-6">
+                <section id="getting-started">
+                    <h2>Getting Started</h2>
+                    <p>To use FuxAwsomeIcons in your project, include the following CDN links:</p>
+                    <h3>CSS</h3>
+                    <textarea class="code form-control" id="css-cdn" readonly>&lt;link rel="stylesheet" href="https://jayel223.github.io/FuxAwsomeIcons/path/to/yourfile.css"&gt;</textarea>
+                    <h3 class="mt-3">JavaScript</h3>
+                    <textarea class="code form-control" id="js-cdn" readonly>&lt;script src="https://jayel223.github.io/FuxAwsomeIcons/path/to/yourfile.js"&gt;&lt;/script&gt;</textarea>
+                </section>
 
-        <section id="usage" class="mt-5">
-            <h2>Usage</h2>
-            <h3>Basic Icon</h3>
-            <p>To display an icon, use the appropriate class in an <code>&lt;i&gt;</code> element. For example:</p>
-            <textarea class="code" id="basic-icon" readonly>&lt;i class="fa-solid fa-house"&gt;&lt;/i&gt;</textarea>
-        </section>
+                <section id="usage" class="mt-4">
+                    <h2>Usage</h2>
+                    <h3>Basic Icon</h3>
+                    <textarea class="code form-control" id="basic-icon" readonly>&lt;i class="fa-solid fa-house"&gt;&lt;/i&gt;</textarea>
+                </section>
 
-        <section id="animations" class="mt-5">
-            <h2>Animations</h2>
-            <p>Enhance your icons with animations by adding the relevant classes:</p>
-            <ul>
-                <li>
-                    <strong>Beat</strong>: Makes the icon pulse at a steady rate.
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-beat"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Beat Fade</strong>: Similar to Beat, but the icon also fades in and out.
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-beat-fade"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Bounce</strong>: Makes the icon bounce up and down.
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-bounce"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Fade</strong>: Fades the icon in and out.
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-fade"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Flip</strong>: Flips the icon horizontally.
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-flip"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Shake</strong>: Makes the icon shake side to side.
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-shake"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Spin</strong>: Makes the icon spin in a clockwise direction.
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-spin"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Spin Reverse</strong>: Makes the icon spin in a counterclockwise direction.
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-spin-reverse"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Spin Pulse</strong>: Makes the icon spin with a pulsing effect.
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-spin-pulse"&gt;&lt;/i&gt;</textarea>
-                </li>
-            </ul>
-        </section>
+                <section id="animations" class="mt-4">
+                    <h2>Animations</h2>
+                    <p>Enhance your icons with animations by adding the relevant classes:</p>
+                    <ul>
+                        <li>
+                            <strong>Beat</strong>: Makes the icon pulse at a steady rate.
+                            <textarea class="code form-control" readonly>&lt;i class="fa-solid fa-house fa-beat"&gt;&lt;/i&gt;</textarea>
+                        </li>
+                        <!-- Add other animations here -->
+                    </ul>
+                </section>
+            </div>
 
-        <section id="styles" class="mt-5">
-            <h2>Styles</h2>
-            <p>FuxAwsomeIcons are available in several styles. To use a different style, replace <code>fa-solid</code> with the desired style class:</p>
-            <ul>
-                <li><strong>Solid</strong>: <code>fa-solid</code></li>
-                <li><strong>Regular</strong>: <code>fa-regular</code></li>
-                <li><strong>Light</strong>: <code>fa-light</code></li>
-                <li><strong>Thin</strong>: <code>fa-thin</code></li>
-                <li><strong>Duotone</strong>: <code>fa-duotone</code></li>
-            </ul>
-            <p>For example, to use a duotone icon:</p>
-            <textarea class="code" id="duotone-icon" readonly>&lt;i class="fa-duotone fa-house"&gt;&lt;/i&gt;</textarea>
-        </section>
+            <div class="col-md-6">
+                <section id="styles">
+                    <h2>Styles</h2>
+                    <p>FuxAwsomeIcons are available in several styles:</p>
+                    <ul>
+                        <li><strong>Solid</strong>: <code>fa-solid</code></li>
+                        <li><strong>Regular</strong>: <code>fa-regular</code></li>
+                        <!-- Add other styles here -->
+                    </ul>
+                    <p>To use a different style, replace <code>fa-solid</code> with the desired style class.</p>
+                    <h3>Example</h3>
+                    <textarea class="code form-control" id="duotone-icon" readonly>&lt;i class="fa-duotone fa-house"&gt;&lt;/i&gt;</textarea>
+                </section>
 
-        <section id="examples" class="mt-5">
-            <h2>Examples</h2>
-            <p>Here are some examples demonstrating the usage of different styles and animations:</p>
-            <ul>
-                <li>
-                    <strong>Solid with Spin Animation</strong>:
-                    <textarea class="code" readonly>&lt;i class="fa-solid fa-house fa-spin"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Regular with Bounce Animation</strong>:
-                    <textarea class="code" readonly>&lt;i class="fa-regular fa-house fa-bounce"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Light with Beat Animation</strong>:
-                    <textarea class="code" readonly>&lt;i class="fa-light fa-house fa-beat"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Thin with Flip Animation</strong>:
-                    <textarea class="code" readonly>&lt;i class="fa-thin fa-house fa-flip"&gt;&lt;/i&gt;</textarea>
-                </li>
-                <li>
-                    <strong>Duotone with Shake Animation</strong>:
-                    <textarea class="code" readonly>&lt;i class="fa-duotone fa-house fa-shake"&gt;&lt;/i&gt;</textarea>
-                </li>
-            </ul>
-        </section>
+                <section id="examples" class="mt-4">
+                    <h2>Examples</h2>
+                    <p>Here are some examples demonstrating the usage of different styles and animations:</p>
+                    <ul>
+                        <li>
+                            <strong>Solid with Spin Animation</strong>:
+                            <textarea class="code form-control" readonly>&lt;i class="fa-solid fa-house fa-spin"&gt;&lt;/i&gt;</textarea>
+                        </li>
+                        <!-- Add more examples here -->
+                    </ul>
+                </section>
+            </div>
+        </div>
 
         <section id="license" class="mt-5">
             <h2>License</h2>
@@ -135,6 +90,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/xml/xml.min.js"></script>
     <script>
         document.querySelectorAll('.code').forEach((el) => {
             CodeMirror.fromTextArea(el, {
