@@ -26,3 +26,13 @@ Enhance your icons with animations by adding the relevant classes:
   ```html
   <i class="fa-solid fa-house fa-beat"></i>
   ```
+
+- **Beat Fade**: Makes the icon pulse at a steady rate with a fade effect.
+  ```html
+  <i class="fa-solid fa-house fa-beat-fade"></i>
+  ```
+
+- **Beat Fade**: Makes the icon pulse at a steady rate with a fade effect.
+  ```html
+  <i class="fa-solid fa-house fa-beat-fade"></i>
+  ```
