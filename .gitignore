@@ -2,8 +2,8 @@ svgs/brands
 svgs/duotone
 svgs/light
 svgs/regular
-##svgs/sharp-light
-##svgs/sharp-regular
-###svgs/sharp-solid
-svgs/solid
-svgs/thin
+svgs/sharp-light
+svgs/sharp-regular
+svgs/sharp-solid
+##svgs/solid
+##svgs/thin
