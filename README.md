@@ -17,3 +17,12 @@ To use FuxAwsomeIcons in your project, include the following CDN links:
 ```html
 <link rel="stylesheet" href="<!-- provide the CSS CDN link here -->">
 ```
+
+### Animations
+
+Enhance your icons with animations by adding the relevant classes:
+
+- **Beat**: Makes the icon pulse at a steady rate.
+  ```html
+  <i class="fa-solid fa-house fa-beat"></i>
+  ```
