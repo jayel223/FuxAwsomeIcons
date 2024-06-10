@@ -11,3 +11,9 @@ To use FuxAwsomeIcons in your project, include the following CDN links:
 #### CSS
 ```html
 <link rel="stylesheet" href="<!-- provide the CSS CDN link here -->">
+```
+
+#### JAVASCRIPT
+```html
+<link rel="stylesheet" href="<!-- provide the CSS CDN link here -->">
+```
